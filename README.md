@@ -1,2 +1,3 @@
-# epi
-Compilation of PL populariry index
+# Every Popularity Index
+
+Compilation of PL populariry indexes
