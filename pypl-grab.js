@@ -1,4 +1,10 @@
-// https://raw.githubusercontent.com/pypl/pypl.github.io/master/PYPL/All.js
+/** 
+ * This file licensed under [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/)
+ * 
+ * And copied from:
+ * - https://pypl.github.io/PYPL.html
+ * - https://raw.githubusercontent.com/pypl/pypl.github.io/master/PYPL/All.js
+ */
     // data
 // begin Top All
 TopPlusMinus = [2,1,2]
