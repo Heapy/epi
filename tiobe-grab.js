@@ -1,7 +1,8 @@
-const tableTop20 = document.querySelector("#top20");
-const tableOther = document.querySelector("#otherPL");
+# using `var` here to simplify debugging
+var tableTop20 =  document.querySelectorAll("table")[0];
+var tableOther =  document.querySelectorAll("table")[1];
 
-const top20 = [...tableTop20.rows].filter((_, idx) => idx !== 0).map(it => {
+var top20 = [...tableTop20.rows].filter((_, idx) => idx !== 0).map(it => {
   return {
     position: Number(it.cells[0].textContent),
     name: it.cells[3].textContent,
@@ -9,7 +10,7 @@ const top20 = [...tableTop20.rows].filter((_, idx) => idx !== 0).map(it => {
   };
 });
 
-const other = [...tableOther.rows].filter((_, idx) => idx !== 0).map(it => {
+var other = [...tableOther.rows].filter((_, idx) => idx !== 0).map(it => {
   return {
     position: Number(it.cells[0].textContent),
     name: it.cells[1].textContent,
