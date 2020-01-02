@@ -1,4 +1,4 @@
-# using `var` here to simplify debugging
+// using `var` here to simplify debugging
 var tableTop20 =  document.querySelectorAll("table")[0];
 var tableOther =  document.querySelectorAll("table")[1];
 
